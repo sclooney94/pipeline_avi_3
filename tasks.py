@@ -73,7 +73,7 @@ class Convert(AviTask):
 
     def input(self):
         return AviLocalTarget(os.path.join(
-            settings.INPUT_PATH, self.inputFile
+            '/user_space/avi2_avi2/data/output', self.inputFile
         ))
 
     def run(self):
